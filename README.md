@@ -1,0 +1,2 @@
+# "PerformancePulse: Insights into Test Success
+This project examines how student performance, as measured by test scores, is influenced by socio-economic parameters such as gender and ethnicity, as well as other variables like parental education level, having lunch before the test, and test preparation course status.
