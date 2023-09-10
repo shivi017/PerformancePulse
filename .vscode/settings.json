@@ -1,0 +1,12 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    
+    "python.analysis.exclude": ["venv"],
+    "python.analysis.diagnosticSeverityOverrides": {
+            "reportShadowedImports": "none"
+        },
+      
+}
+
+
+    
