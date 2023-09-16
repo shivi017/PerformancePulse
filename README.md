@@ -26,7 +26,8 @@ cd PerformancePulse
 bash
 Copy code
 python -m venv venv
-Activate the Virtual Environment:
+
+### Activate the Virtual Environment:
 
 On Windows:
 
@@ -79,22 +80,22 @@ PerformancePulse relies on the following Python libraries:
 
 ### Core Components
 **Data Ingestion**
-File: data_ingestion.py
+* File: data_ingestion.py
 Description: Handles the loading of raw data, conducts train-test splitting, and saves data as CSV files for training and testing.
 **Data Transformation**
-File: data_transformation.py
+* File: data_transformation.py
 Description: Prepares data by addressing missing values, scaling numerical features, and one-hot encoding categorical attributes. It also saves the preprocessing object for future predictions.
 **Model Trainer**
-File: model_trainer.py
+* File: model_trainer.py
 Description: Trains a variety of regression models (e.g., Random Forest, XGBoost) on the preprocessed data. The best-performing model is selected and saved for future predictions.
 **Custom Data Classes**
-File: custom_data.py
+* File: custom_data.py
 Description: Contains custom data classes to structure input data.
 **Exception Handling**
-File: exception.py
+* File: exception.py
 Description: Provides custom exception handling for the project.
 **Logging**
-File: logger.py
+* File: logger.py
 Description: Sets up project logging for better debugging and monitoring.
 
 ## Contributing
