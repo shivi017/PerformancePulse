@@ -1,4 +1,5 @@
 from flask import Flask,request,render_template
+import os
 import numpy as np
 import pandas as pd
 
@@ -34,9 +35,13 @@ def predict_datapoint():
 
         predict_pipeline=PredictPipeline()
         print("Mid Prediction")
+        model_path = os.path.join("artifacts", "model.pkl")
+        preprocessor_path = os.path.join("artifacts", "preprocessor.pkl")
+        print("Current Working Directory:", os.getcwd())
         results=predict_pipeline.predict(pred_df)
         print("after Prediction")
         return render_template('home.html',results=results[0])
+    
     
 
 if __name__=="__main__":
