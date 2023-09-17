@@ -1,4 +1,4 @@
-# "PerformancePulse: Insights into Test Success
+# PerformancePulse: Insights into Test Success
 
 Welcome to PerformancePulse, an educational data analysis project powered by Python. This project helps predict student performance based on various factors, including gender, race/ethnicity, parental education, lunch type, test preparation, reading scores, and writing scores.
 
